@@ -1,3 +1,9 @@
+/* PC */
+@media (min-width: 1024px) {
+  .hide-on-pc {
+    display: none;
+  }
+}
 /* Mobile & Tablet */
 @media (max-width: 1023px) {
   .hide-on-mobile-tablet {
