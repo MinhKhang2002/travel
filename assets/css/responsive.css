@@ -265,4 +265,13 @@
     font-size: 32px;
     line-height: 55px;
   }
+  
+  .tour__selection-item-icon {
+    display: block;
+  }
+
+  .tour__selection-item--active {
+    display: flex;
+    align-items: center;
+  }
 }

@@ -203,7 +203,7 @@
     /* width: 100%;
     height: 850px; */
     padding-top: 52.1%;
-    background: url('/assets/img/slider1.jpg') top center / cover no-repeat;
+    background: url('https://bizweb.dktcdn.net/100/299/077/themes/642224/assets/slider_1.jpg?1628515462023') top center / cover no-repeat;
     position: relative;
     /* background-position: center;
     background-size: cover;
@@ -986,7 +986,7 @@
 .tour__domestic {
     width: 100%;
     /* padding-top: 30%; */
-    background: url('/assets/img/sec_inbound_tour_bg.png');
+    background: url('https://bizweb.dktcdn.net/100/299/077/themes/642224/assets/sec_inbound_tour_bg.png?1615450591638');
     /* position: relative; */
     background-size: cover;
     background-repeat: no-repeat;
@@ -1004,6 +1004,10 @@
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+}
+
+.tour__selection-item-icon {
+    display: none;
 }
 
 .tour__selection-icon-left {
@@ -1041,7 +1045,7 @@
 
 /* =============Tour Holiday===================== */
 .tour__holiday {
-    background: url('/assets/img/sec_video_tour_bg.jpg');
+    background: url('https://bizweb.dktcdn.net/100/299/077/themes/642224/assets/sec_video_tour_bg.jpg?1615450591638');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -1156,7 +1160,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: url('/assets/img/blur.jpg') bottom repeat-x;
+    background: url('https://bizweb.dktcdn.net/100/299/077/themes/642224/assets/tour-category-item-gradient.png?1615450591638') bottom repeat-x;
 }
 
 .tour__favorite-item:hover .tour__favorite-item-location {
@@ -1396,7 +1400,7 @@
 /* ====================Footer================= */
 .footer__slider {
     max-width: 100%;
-    background-image: url(/assets/img/footer.jpg);
+    background-image: url('https://bizweb.dktcdn.net/100/299/077/themes/642224/assets/footer.jpg?1615450591638');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
