@@ -1126,6 +1126,36 @@
     width: 100%;
 }
 
+.tour__favorite-content-wrap {
+    position: relative;
+}
+
+.tour__favorite-icon-left {
+    position: absolute;
+    font-size: 24px;
+    color: #ccc;
+    z-index: 1;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 4px 8px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.tour__favorite-icon-right {
+    position: absolute;
+    font-size: 24px;
+    color: #ccc;
+    z-index: 1;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 4px 8px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 .tour__favorite-item {
     position: relative;
     overflow: hidden;
@@ -1405,7 +1435,7 @@
     background-repeat: no-repeat;
     background-position: center;
     /* background-attachment: fixed; */
-    max-height: 415px;
+    max-height: 425px;
     position: relative;
 }
 
