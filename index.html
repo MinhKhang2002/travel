@@ -43,10 +43,10 @@
                     Hotline đặt Tour
                 </span>
             </li>
-            <li class="main__contact-item-up">
-                <a href="#header" class="main__contact-item-up-link">
+            <li id="backup" class="main__contact-item-up">
+                <span class="main__contact-item-up-link">
                     <i class="main__contact-item-up-icon fas fa-arrow-circle-up"></i>
-                </a>
+                </span>
             </li>
         </ul>
         <div id="header" class="header-wrap">
@@ -1816,6 +1816,23 @@
             </div>
         </footer>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() ) {
+                    $('#backup').fadeIn();
+                } else {
+                    $('#backup').fadeOut();
+                };
+            });
+            $('#backup').click(function() {
+                $('html, body').animate({scrollTop: 0}, 500);
+            });
+        });
+    </script>
 </body>
 
 </html>

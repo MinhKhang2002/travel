@@ -185,13 +185,12 @@
 }
 
 .main__contact-item-up-link {
-    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
     width: 40px;
-    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
 }
 
 .main__contact-item-up-icon {
@@ -242,6 +241,7 @@
     display: flex;
     list-style: none;
     justify-content: right;
+    float: right;
 }
 
 .header__top-list-icon {
@@ -368,6 +368,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
+    float: right;
 }
 
 .container-contacts-img {
