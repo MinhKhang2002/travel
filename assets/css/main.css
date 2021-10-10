@@ -603,10 +603,6 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-.sub__nav-img {
-
-}
-
 .sub__nav-user-text {
     text-decoration: none;
     font-size: 15px;
@@ -636,10 +632,6 @@
     text-align: center;
     text-transform: uppercase;
     -webkit-tap-highlight-color: transparent;
-}
-
-.sub__nav-category {
-
 }
 
 .sub__nav-category-heading {
@@ -707,10 +699,6 @@
     margin: 0;
     padding-bottom: 5px;
     line-height: 38px;
-}
-
-.title__line {
-    /* position: relative; */
 }
 
 .t-1 {
@@ -1018,10 +1006,6 @@
     margin-bottom: 15px;
 }
 
-.tour__selection-item {
-
-}
-
 .tour__selection-icon-left {
     color: var(--primary-color);
     font-size: 10px;
@@ -1066,10 +1050,6 @@
 
 .tour__holiday-intro-wrap {
     padding: 100px 0;
-}
-
-.tour__holiday-introduce {
-
 }
 
 .tour__holiday-sub-text {
@@ -1142,15 +1122,9 @@
     width: 100%;
 }
 
-.tour__favorite-content-item {
-}
-
 .tour__favorite-item {
     position: relative;
     overflow: hidden;
-}
-
-.tour__favorite-item-image {
 }
 
 .tour__favorite-item:hover .tour__favorite-item-overlay {
@@ -1195,10 +1169,6 @@
     left: 0;
     right: 0;
     transition: all 0.2s ease-in-out;
-}
-
-.tour__favorite-item-name {
-    
 }
 
 .tour__favorite-item-wrap-heading {
@@ -1247,13 +1217,9 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-/* ===============Tour Handbook */
+/* ===============Tour Handbook======================== */
 .tour__handbook {
     margin-bottom: 20px;
-}
-
-.tour__handbook-box {
-
 }
 
 .tour__handbook-image {
@@ -1277,20 +1243,8 @@
     transform: scale(1.1);
 }
 
-.tour__handbook-body {
-
-}
-
 .tour__handbook-list {
     list-style: none;
-}
-
-.tour__handbook-item {
-
-}
-
-.tour__handbook-heading {
-
 }
 
 .tour__handbook-link {
@@ -1491,10 +1445,6 @@
     height: 49px;
 }
 
-.footer__contact-info {
-    
-}
-
 .footer__contact-text-support {
     font-size: 14px;
     color: #e2e2e2;
@@ -1553,10 +1503,6 @@
 .footer__service-list {
     list-style: none;
     padding-left: 0;
-}
-
-.footer__service-item {
-
 }
 
 .footer__service-link {
