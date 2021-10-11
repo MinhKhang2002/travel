@@ -182,6 +182,7 @@
     height: 40px;
     background-color: var(--primary-color);
     border-radius: 3px;
+    display: none;
 }
 
 .main__contact-item-up-link {
